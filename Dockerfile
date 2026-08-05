@@ -1,4 +1,6 @@
+# Base image
 FROM debian:latest AS base
+MAINTAINER "Tristan Brice Velloza Kildaire" "deavmi@redxen.eu"
 
 RUN apt update
 RUN apt upgrade -y
